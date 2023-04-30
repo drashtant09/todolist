@@ -90,7 +90,7 @@ export const Todo = () => {
          ) : (
         <i className="fa fa-plus add-btn" onClick={addItems}></i>
         )}
-       </div>
+       </div> 
        {/*show our items*/}
        <div className="showItems">
         {items.map((curElem) => {
